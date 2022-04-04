@@ -7,35 +7,47 @@ Projekt polega na stworzeniu aplikacji umożliwiającej rejestrowanie różnego 
 
 ### Instalacja bibliotek
 
-$ composer install
+```
+composer install
+```
 
 ### Zmiana danych w pliku konfiguracyjnym
 
 Głównie:
 
 Baza danych:
- DB_CONNECTION=mysql
- DB_HOST=127.0.0.1
- DB_PORT=3306
- DB_DATABASE=
- DB_USERNAME=
- DB_PASSWORD=
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
+```
 
 Skrzynka pocztowa:
- MAIL_DRIVER=smtp
- MAIL_HOST=
- MAIL_PORT=
- MAIL_USERNAME=
- MAIL_PASSWORD=
- MAIL_ENCRYPTION=null
- MAIL_FROM_NAME="${APP_NAME}"
- MAIL_FROM_ADDRESS=
+```
+MAIL_DRIVER=smtp
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=null
+MAIL_FROM_NAME="${APP_NAME}"
+MAIL_FROM_ADDRESS=
+```
 
 Adres na który przychodzi email o rejestracji:
-$ REGISTER_EMAIL = 
+```
+REGISTER_EMAIL = 
+```
 
 
 ### Migracja bazy danych
 
-$ php artisan migrate
+```
+php artisan migrate
+```
 
+## Brakuje
+Edycja pól stanowiska
